@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 800;
+  background-color: #be3402;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 550px;
+  margin-top: 50px;
+  /* border: 1px solid #fff; */
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #26006e;
+}
+
+.heading {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 10px;
+} */
+
+.date {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.date-enter-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.input-enter-container {
+  height: 40px;
+  background-color: #fff;
+  padding: 0px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 2px;
+  border-radius: 5px;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.input::placeholder {
+  font-size: 0.9rem;
+  color: #8e869c;
+}
+
+.enter {
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  padding: 7px;
+  background-color: #f14e13;
+  color: #fff;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 800;
+}
+
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  width: 100%;
+  height: 50px;
+  /* background-color: red; */
+  /* padding: 15px; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.todo {
+  width: 90%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 800;
+  cursor: auto;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 800;
+  background-color: #f14e13;
+  color: #fff;
+}
+
+.save-cancel {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.display {
+  display: none;
+}
+
+.fa {
+  font-size: 1.2rem;
+  color: #2f0180;
+}
+
+button:hover {
+  background-color: #d73900;
+}
+
+.placeholder-color::placeholder {
+  color: #d73900;
+}
+
+.time {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.time-style {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.space {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+.read {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.icons .opacity {
+  opacity: 0.7;
+}
