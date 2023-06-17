@@ -91,7 +91,7 @@ function listProperties() {
     newTodoText.value = newTodoText.value;
     savePage.classList.toggle("display");
     newTodoText.readOnly = true;
-    alert("Save!👍");
+ 
   });
 
   cancelBtn.addEventListener("click", function () {
