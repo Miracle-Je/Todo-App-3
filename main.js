@@ -9,7 +9,7 @@ let minute = document.querySelector(".minute");
 let second = document.querySelector(".second");
 let loc = localStorage.getItem("value");
 let currentTask;
-alert(loc);
+
 // newTodoText.value = storedInput;
 
 // document.querySelector(".todo").value = localStorage.getItem("value");
